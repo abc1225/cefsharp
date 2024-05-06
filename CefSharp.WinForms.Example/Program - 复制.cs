@@ -12,15 +12,15 @@ using CefSharp.WinForms.Example.Minimal;
 
 namespace CefSharp.WinForms.Example
 {
-    public class Program
+    public class ProgramBak
     {
         [STAThread]
-        public static int Main(string[] args)
+        public static int MainBak(string[] args)
         {
             // DEMO: Change to true to self host the BrowserSubprocess.
             // instead of using CefSharp.BrowserSubprocess.exe, your applications exe will be used.
             // In this case CefSharp.WinForms.Example.exe
-            const bool selfHostSubProcess = true;
+            const bool selfHostSubProcess = false;
 
             if (selfHostSubProcess)
             {
